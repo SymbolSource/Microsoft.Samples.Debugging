@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Microsoft.Samples.Debugging.CorApi</id>
+    <version>1.4.0.0</version>
+    <authors>Microsoft</authors>
+    <owners>SymbolSource</owners>
+    <projectUrl>https://github.com/SymbolSource/Microsoft.Samples.Debugging</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>CLR Managed Debugger (mdbg) Sample 4.0 (http://www.microsoft.com/download/en/details.aspx?id=2282)</description>
+  </metadata>
+  <files>
+    <file src="bin\Release\Microsoft.Samples.Debugging.CorApi.*" target="lib" />
+	<file src="bin\Release\Microsoft.Samples.Debugging.CorApi.NativeApi.*" target="lib" />
+	<file src="bin\Release\Microsoft.Samples.Debugging.Native.*" target="lib" />
+	<file src="src\debugger\corapi\**\*.cs" target="src\debugger\corapi" /> 
+	<file src="src\debugger\raw\**\*.cs" target="src\debugger\raw" /> 
+	<file src="src\debugger\NativeDebugWrappers\**\*.cs" target="src\debugger\NativeDebugWrappers" /> 
+  </files>
+</package>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Microsoft.Samples.Debugging.MdbgEngine</id>
+    <version>1.4.0.0</version>
+    <authors>Microsoft</authors>
+    <owners>SymbolSource</owners>
+    <projectUrl>https://github.com/SymbolSource/Microsoft.Samples.Debugging</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>CLR Managed Debugger (mdbg) Sample 4.0 (http://www.microsoft.com/download/en/details.aspx?id=2282)</description>
+    <dependencies>
+      <dependency id="Microsoft.Samples.Debugging.CorApi" version="1.4.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Microsoft.Samples.Debugging.MdbgEngine.*" target="lib" />
+	<file src="src\debugger\mdbgeng\**\*.cs" target="src\debugger\mdbgeng" /> 
+  </files>
+</package>
