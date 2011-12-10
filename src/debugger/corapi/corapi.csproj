@@ -6,8 +6,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{04EF9865-E1B1-403D-802B-E4FAEA50A634}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>corapi</RootNamespace>
-    <AssemblyName>corapi</AssemblyName>
+    <RootNamespace>Microsoft.Samples.Debugging</RootNamespace>
+    <AssemblyName>Microsoft.Samples.Debugging.CorApi</AssemblyName>
     <WarningLevel>4</WarningLevel>
     <StartupObject>
     </StartupObject>

@@ -6,8 +6,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{634B90A2-0344-44C5-83F0-06180B2FDA05}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>mdbgeng</RootNamespace>
-    <AssemblyName>mdbgeng</AssemblyName>
+    <RootNamespace>Microsoft.Samples.Debugging.MdbgEngine</RootNamespace>
+    <AssemblyName>Microsoft.Samples.Debugging.MdbgEngine</AssemblyName>
     <WarningLevel>4</WarningLevel>
     <StartupObject>
     </StartupObject>
@@ -42,7 +42,7 @@
     <Optimize>false</Optimize>
     <OutputPath>..\..\..\bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <DocumentationFile>..\..\..\bin\Debug\mdbgeng.xml</DocumentationFile>
+    <DocumentationFile>..\..\..\bin\Debug\Microsoft.Samples.Debugging.MdbgEngine.xml</DocumentationFile>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>true</RunCodeAnalysis>
   </PropertyGroup>
@@ -51,7 +51,7 @@
     <Optimize>true</Optimize>
     <OutputPath>..\..\..\bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
-    <DocumentationFile>..\..\..\bin\Release\mdbgeng.xml</DocumentationFile>
+    <DocumentationFile>..\..\..\bin\Release\Microsoft.Samples.Debugging.MdbgEngine.xml</DocumentationFile>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>

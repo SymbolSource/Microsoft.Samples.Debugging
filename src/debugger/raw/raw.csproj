@@ -6,8 +6,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{C18D303B-2C55-43EB-A3DF-39CF3FB1D447}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>raw</RootNamespace>
-    <AssemblyName>raw</AssemblyName>
+    <RootNamespace>Microsoft.Samples.Debugging</RootNamespace>
+    <AssemblyName>Microsoft.Samples.Debugging.CorApi.NativeApi</AssemblyName>
     <WarningLevel>4</WarningLevel>
     <StartupObject>
     </StartupObject>
